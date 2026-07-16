@@ -17,7 +17,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
       
-
+  
     printf("Enter the element to be searched : ");
     scanf("%d",&key);
     // Calling the function for searching / Traversing

@@ -1,5 +1,5 @@
 #include<stdio.h>
-// #imclude<conio.h>  // --> For turbo c compiler
+// #include<conio.h>  // --> For turbo c compiler
 
 // function for searching the element in the array
 int Binary_search(int[], int, int);
