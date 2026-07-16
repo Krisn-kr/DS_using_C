@@ -7,6 +7,8 @@ int Binary_search(int[], int, int);
 // main function
 int main(){
     int arr[100], size, key;
+
+    // clrscr() // for turbo c compiler 
     printf("Enter the no of the elements of the array :: ");
     scanf("%d",&size);
     printf("Enter the %d elements for the array in sorted way : ",size);
@@ -30,6 +32,11 @@ int main(){
         printf("Searching successful.\n");
         printf("The element %d is found at index %d, at position %d\n",key,q, (q+1));
     }
+
+
+    // getch(); // for turbo c compiler
+
+
 
 }
 
