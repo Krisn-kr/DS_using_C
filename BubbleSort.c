@@ -28,6 +28,7 @@ int main(){
 void Bubble_Sort(int arr[], int size)
  {
     int temp, pass, i;
+    
     for(pass =0; pass < size ; pass++)
       {
         for(i = 0; i< size -pass - 1; i++)
